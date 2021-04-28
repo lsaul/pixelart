@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Pixel from './components/Pixel'
+
+ 
 ReactDOM.render(
   <React.StrictMode>
     <App />

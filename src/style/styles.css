@@ -1,0 +1,79 @@
+.pixel.white {
+    background-color: white;
+  }
+
+.pixel.Silver {
+    background-color: Silver;
+  }
+
+  .pixel.gray {
+    background-color: gray;
+  }
+
+  'white', 'Silver', 'gray', 'lightblue', 'blue', 'Navy', 'Olive', 'Green', 'Greenyellow',  'Fuschia',  'Purple', 'Maroon', 'Red' 
+
+
+  .pixel.lightblue {
+    background-color: rgb(0, 188, 212);
+  }
+  .pixel.blue {
+    background-color: rgb(3, 169, 244);
+  }
+
+  .pixel.Navy {
+    background-color: Navy;
+  }
+
+  .pixel.Olive {
+    background-color: Olive;
+  }
+
+  .pixel.Green {
+    background-color: Green;
+  }
+
+  .pixel.Greenyellow {
+    background-color: Greenyellow;
+  }
+
+  .pixel.Fuchsia {
+    background-color: Fuchsia;
+  }
+
+  .pixel.Purple {
+    background-color :Purple;
+  }
+
+  .pixel.Maroon {
+    background-color: Maroon;
+  }
+
+  .pixel.Red {
+    background-color: red;
+  }
+
+  .pixel{
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      border: 1px solid lightgray;
+      box-sizing: border-box;
+  }
+
+  .pixel.current-color{
+    border: 4px solid yellow;
+  }
+
+  .App{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .canvas{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+  }
